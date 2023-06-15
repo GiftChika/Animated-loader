@@ -4,7 +4,8 @@ body{
     margin-top: 150px;
     background-color: rgb(251, 249, 249);
 }
-.box-loader{
+/*   a circle shaped loader */
+.circle-loader{
     height: 300px;
     width: 300px;
     border: 12px solid rgb(186, 181, 181);
@@ -13,6 +14,7 @@ body{
     animation: load 1s ease infinite;
 
 }
+
 @keyframes load {
     100%{
         transform: rotate(360deg);
