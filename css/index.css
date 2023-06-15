@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: rgb(251, 249, 249);
+}
+.box-loader{
+    height: 300px;
+    width: 300px;
+    border: 12px solid rgb(186, 181, 181);
+    border-right-color: rgb(41, 101, 220);
+    border-radius: 50%;
+    animation: load 1s ease infinite;
+
+}
+@keyframes load {
+    100%{
+        transform: rotate(360deg);
+    }
+}
